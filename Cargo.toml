@@ -1,0 +1,16 @@
+[package]
+name = "crypto-wallet-generator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ansi_term = "0.12.1"
+clap = { version = "4.2.3", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.96"
+secp256k1 = { version = "0.20.3", features = ["rand"] }
+tiny-keccak = { version = "2.0.0", features = ["sha3"] }
+easy-hasher = "2.2.1"
+sha3 = "0.10.7"
+rust-crypto = "0.2.36"
+rand = "0.8.5"
